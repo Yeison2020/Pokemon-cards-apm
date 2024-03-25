@@ -23,7 +23,7 @@ chmod +x run.sh
 sh run.sh
 
 # Start docker mongoDB
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 # Start service
@@ -73,6 +73,16 @@ source ~/.bashrc
 [Single step APM instrumentation](https://docs.datadoghq.com/tracing/trace_collection/automatic_instrumentation/single-step-apm/?tab=linuxhostorvm)
 
 [Basic Agent Usage for Amazon Linux](https://docs.datadoghq.com/agent/basic_agent_usage/amazonlinux/?tab=agentv6v7)
+
+# Relevant commmands
+
+```bash
+# Confirm mongodb container is up and running:
+sudo docker ps -a
+
+#Consider adding dd-agent to the docker group to enable the docker support, run:
+sudo usermod -a -G docker dd-agent
+```
 
 ## Stack
 
