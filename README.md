@@ -69,7 +69,9 @@ source ~/.bashrc
 ## Setup Datadog agent
 
 [Agent 7 Installation Instructions](https://app.datadoghq.com/account/settings/agent/latest?platform=aws)
+
 [Single step APM instrumentation](https://docs.datadoghq.com/tracing/trace_collection/automatic_instrumentation/single-step-apm/?tab=linuxhostorvm)
+
 [Basic Agent Usage for Amazon Linux](https://docs.datadoghq.com/agent/basic_agent_usage/amazonlinux/?tab=agentv6v7)
 
 ## Stack
