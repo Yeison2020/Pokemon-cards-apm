@@ -10,6 +10,10 @@
 ## Running the app
 
 ```bash
+# Download git
+
+sudo yum install -y git
+
 # Set execute permission
 
 chmod +x run.sh
@@ -18,7 +22,9 @@ sh run.sh
 
 # Start
 
- npm run start
+# npm install
+
+npm run start
 
 ## Stack
 
