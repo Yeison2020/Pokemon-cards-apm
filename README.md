@@ -36,15 +36,34 @@ npm run start
 
 1. Seed database
 
-```http://localhost:4000/api/v2/seed```
+```
+http://localhost:4000/api/v2/seed
+
+```
 
 2. Get all pokemons
 
-```http://localhost:4000/api/v2/pokemon```
+```
+http://localhost:4000/api/v2/pokemo
+
+```
 
 3. Get pokemon by id
 
-```http://localhost:4000/api/v2/pokemon```
+```
+http://localhost:4000/api/v2/pokemon
+
+```
+## NPM not found
+
+```
+source ~/.bashrc
+
+```
+
+## Setup Datadog agent
+[Agent 7 Installation Instructions](https://app.datadoghq.com/account/settings/agent/latest?platform=aws)
+
 
 ## Stack
 - Mongo DB
