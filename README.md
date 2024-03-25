@@ -9,8 +9,13 @@
 ## Prerequisites
 
 ```bash
-# Download git
+# Download git in your EC2 instance
 sudo yum install -y git
+
+# Download this project
+git clone https://github.com/Yeison2020/Pokemon-cards-apm.git
+
+cd Pokemon-cards-apm
 
 # Set execute permission for run.sh
 chmod +x run.sh
@@ -19,14 +24,11 @@ sh run.sh
 
 # Start docker mongoDB
 docker-compose up -d
-
 ```
 
 # Start service
 
 ```bash
-cd Pokemon-cards-apm
-
 npm install
 
 npm run start
@@ -72,8 +74,8 @@ source ~/.bashrc
 
 ## Stack
 
-- Mongo DB
-- TablePlus UI to view Database details
+- MongoDB v5
+- Mongoose v10.0.2
 - NestJS v9.0.0
 - Express v4.17.13
-- Nodejs v18.15.11
+- Nodejs v20.3.1
