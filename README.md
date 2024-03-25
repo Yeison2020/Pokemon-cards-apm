@@ -6,64 +6,69 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-<!-- ## Installation -->
-
-## Running the app
+## Prerequisites
 
 ```bash
 # Download git
-
 sudo yum install -y git
 
-# Set execute permission
-
+# Set execute permission for run.sh
 chmod +x run.sh
 
 sh run.sh
 
-# Docker mongoDB
-
+# Start docker mongoDB
 docker-compose up -d
 
 ```
 
-# Start
+# Start service
+
+```bash
+cd Pokemon-cards-apm
+
+npm install
 
 npm run start
+```
 
 # Endpoints
 
 1. Seed database
 
 ```
-http://localhost:4000/api/v2/seed
-
+curl http://localhost:4000/api/v2/seed
 ```
 
 2. Get all pokemons
 
 ```
-http://localhost:4000/api/v2/pokemo
-
+curl http://localhost:4000/api/v2/pokemo
 ```
 
 3. Get pokemon by id
 
 ```
-http://localhost:4000/api/v2/pokemon
+curl http://localhost:4000/api/v2/pokemon
+```
 
+4. Delete a pokemon
+
+```
+curl  -X DELETE http://localhost:4000/api/v2/pokemon/<id>
 ```
 
 ## NPM not found
 
 ```
 source ~/.bashrc
-
 ```
 
 ## Setup Datadog agent
 
 [Agent 7 Installation Instructions](https://app.datadoghq.com/account/settings/agent/latest?platform=aws)
+[Single step APM instrumentation](https://docs.datadoghq.com/tracing/trace_collection/automatic_instrumentation/single-step-apm/?tab=linuxhostorvm)
+[Basic Agent Usage for Amazon Linux](https://docs.datadoghq.com/agent/basic_agent_usage/amazonlinux/?tab=agentv6v7)
 
 ## Stack
 
