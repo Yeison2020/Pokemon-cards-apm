@@ -10,7 +10,7 @@
 
 ## Running the app
 
-````bash
+```bash
 # Download git
 
 sudo yum install -y git
@@ -21,16 +21,15 @@ chmod +x run.sh
 
 sh run.sh
 
-source ~/.bashrc
-
 # Docker mongoDB
 
 docker-compose up -d
 
+```
+
 # Start
 
 npm run start
-
 
 # Endpoints
 
@@ -54,6 +53,7 @@ http://localhost:4000/api/v2/pokemo
 http://localhost:4000/api/v2/pokemon
 
 ```
+
 ## NPM not found
 
 ```
@@ -62,13 +62,13 @@ source ~/.bashrc
 ```
 
 ## Setup Datadog agent
+
 [Agent 7 Installation Instructions](https://app.datadoghq.com/account/settings/agent/latest?platform=aws)
 
-
 ## Stack
+
 - Mongo DB
 - TablePlus UI to view Database details
 - NestJS v9.0.0
 - Express v4.17.13
 - Nodejs v18.15.11
-````
