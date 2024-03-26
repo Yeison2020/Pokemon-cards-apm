@@ -9,29 +9,37 @@
 ## Prerequisites
 
 ```bash
+# Your ECS instance is running and you are connected to it
+
 # Download git in your EC2 instance
 sudo yum install -y git
 
 # Download this project
+
 git clone https://github.com/Yeison2020/Pokemon-cards-apm.git
 
 cd Pokemon-cards-apm
 
 # Set execute permission for run.sh
+
 chmod +x run.sh
 
 sh run.sh
 
 # Start docker mongoDB
+
 sudo docker-compose up -d
+
 ```
 
 # Start service
 
 ```bash
+
 npm install
 
 npm run start
+
 ```
 
 # Endpoints
@@ -45,7 +53,7 @@ curl http://localhost:4000/api/v2/seed
 2. Get all pokemons
 
 ```
-curl http://localhost:4000/api/v2/pokemo
+curl http://localhost:4000/api/v2/pokemon
 ```
 
 3. Get pokemon by id
@@ -74,14 +82,19 @@ source ~/.bashrc
 
 [Basic Agent Usage for Amazon Linux](https://docs.datadoghq.com/agent/basic_agent_usage/amazonlinux/?tab=agentv6v7)
 
-# Relevant commmands
+# Optional commands
 
 ```bash
-# Confirm mongodb container is up and running:
+# Confirm MONGODB container is up and running:
+
 sudo docker ps -a
 
-#Consider adding dd-agent to the docker group to enable the docker support, run:
+# Add your dd-agent to the docker group:
+
 sudo usermod -a -G docker dd-agent
+
+sudo systemctl restart datadog-agent
+
 ```
 
 ## Stack
