@@ -12,6 +12,7 @@
 # Your ECS instance is running and you are connected to it
 
 # Download git in your EC2 instance
+
 sudo yum install -y git
 
 # Download this project
