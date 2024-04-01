@@ -9,7 +9,7 @@
 ## Prerequisites
 
 ```bash
-# Your ECS instance is running and you are connected to it
+# Your ECS instance is running and you are connected
 
 # Download git in your EC2 instance
 
@@ -101,7 +101,7 @@ sudo systemctl restart datadog-agent
 ## Stack
 
 - MongoDB v5
-- Mongoose v10.0.2
+- Mongoose v10.3.2
 - NestJS v9.0.0
-- Express v4.17.13
+- Express v4.17.17
 - Nodejs v20.3.1
