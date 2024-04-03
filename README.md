@@ -11,23 +11,23 @@
 ```bash
 (1) Your EC2 instance is running and you are connected
 
-# Download git in your EC2 instance
+(2) Download git into your EC2 instance
 
 sudo yum install -y git
 
-# Download this project
+(3) Download this project with the following command
 
 git clone https://github.com/Yeison2020/Pokemon-cards-apm.git
 
 cd Pokemon-cards-apm
 
-# Set execute permission for run.sh
+(4) Set execute permission to run run.sh
 
 chmod +x run.sh
 
 sh run.sh
 
-# Start docker mongoDB
+(5) Start docker mongoDB container
 
 sudo docker-compose up -d
 
