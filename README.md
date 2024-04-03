@@ -9,7 +9,7 @@
 ## Prerequisites
 
 ```bash
-# Your ECS instance is running and you are connected
+# Your EC2 instance is running and you are connected :)
 
 # Download git in your EC2 instance
 
@@ -83,7 +83,7 @@ source ~/.bashrc
 
 [Basic Agent Usage for Amazon Linux](https://docs.datadoghq.com/agent/basic_agent_usage/amazonlinux/?tab=agentv6v7)
 
-# Optional commands
+# Optional
 
 ```bash
 # Confirm MONGODB container is up and running:
@@ -97,6 +97,8 @@ sudo usermod -a -G docker dd-agent
 sudo systemctl restart datadog-agent
 
 ```
+
+[Unified Service Tagging](https://docs.datadoghq.com/getting_started/tagging/unified_service_tagging/?tab=kubernetes#serverless-environment)
 
 ## Stack
 
