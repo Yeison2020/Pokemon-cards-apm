@@ -9,7 +9,7 @@
 ## Prerequisites
 
 ```bash
-# Your EC2 instance is running and you are connected :)
+(1) Your EC2 instance is running and you are connected
 
 # Download git in your EC2 instance
 
