@@ -33,7 +33,7 @@ sudo docker-compose up -d
 
 ```
 
-# Start service
+## Start application
 
 ```bash
 
@@ -43,7 +43,7 @@ npm run start
 
 ```
 
-# Endpoints
+## Endpoints
 
 1. Seed database
 
@@ -83,7 +83,7 @@ source ~/.bashrc
 
 [Basic Agent Usage for Amazon Linux](https://docs.datadoghq.com/agent/basic_agent_usage/amazonlinux/?tab=agentv6v7)
 
-# Optional
+## Optional
 
 ```bash
 # Confirm MONGODB container is up and running:
