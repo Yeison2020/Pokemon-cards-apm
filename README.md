@@ -9,11 +9,11 @@
 ## Prerequisites
 
 ```bash
-# Download git into your EC2 instance
+# Download git into your EC2 instance:
 
 sudo yum install -y git
 
-# Download this project with the following command
+# Download this project with the following command:
 
 git clone https://github.com/Yeison2020/Pokemon-cards-apm.git
 
