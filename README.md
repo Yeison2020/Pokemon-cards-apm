@@ -9,9 +9,6 @@
 ## Prerequisites
 
 ```bash
-
-# Your EC2 instance is running and you are connected
-
 # Download git into your EC2 instance
 
 sudo yum install -y git
@@ -22,7 +19,7 @@ git clone https://github.com/Yeison2020/Pokemon-cards-apm.git
 
 cd Pokemon-cards-apm
 
-# Set execute permission to run run.sh
+# Run the following commands to make the .sh script executable:
 
 chmod +x run.sh
 
