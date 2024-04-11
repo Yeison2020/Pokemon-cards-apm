@@ -41,6 +41,12 @@ npm run start
 
 ```
 
+**NPM Not Found??!**
+
+``` bash
+source ~/.bashrc
+```
+
 ## Endpoints
 
 1. Seed database
@@ -58,7 +64,7 @@ curl http://localhost:4000/api/v2/pokemon
 3. Get pokemon by id
 
 ```
-curl http://localhost:4000/api/v2/pokemon
+curl http://localhost:4000/api/v2/pokemon/<id>
 ```
 
 4. Delete a pokemon
@@ -67,11 +73,6 @@ curl http://localhost:4000/api/v2/pokemon
 curl  -X DELETE http://localhost:4000/api/v2/pokemon/<id>
 ```
 
-## NPM not found
-
-```
-source ~/.bashrc
-```
 
 ## Setup Datadog agent
 
